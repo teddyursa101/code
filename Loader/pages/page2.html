@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/loading.css">
+</head>
+<style>
+    body {
+        background-image: url("../images/Cat.webp")
+    }
+</style>
+
+<div id="loading-screen2" class="wrapper2">  
+</div>
+</div>
+
+    <div id="loading-screen" class="wrapper">  
+            <div class="box-wrap">
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+            <div class="box four"></div>
+            <div class="box five"></div>
+            <div class="box six"></div>
+        </div>
+    </div>
+    <h1>You are a cat. Cloud castle is not a prison. You like it here.<p>
+        There is no need to escape.
+    </p></h1>
+    <div class="button-container">
+        <a href="../index.html" class="button">Restart</a>
+    </div>
+</body>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(() => {
+            document.getElementById('loading-screen').style.display = 'none';
+            document.getElementById('loading-screen2').style.display = 'none';
+        }, 1500);
+       
+    });
+</script>
+</html>

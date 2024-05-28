@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/loading.css">
+</head>
+<style>
+    body {
+        background-image: url("../images/dog3.webp")
+    }
+</style>
+
+<div id="loading-screen2" class="wrapper2">  
+</div>
+</div>
+
+    <div id="loading-screen" class="wrapper">  
+            <div class="box-wrap">
+            <div class="box one"></div>
+            <div class="box two"></div>
+            <div class="box three"></div>
+            <div class="box four"></div>
+            <div class="box five"></div>
+            <div class="box six"></div>
+        </div>
+    </div>
+
+    <h1>Clever dog <p>You've used the key to break free!</p>
+        <p>What is your first move?</p>
+    </h1>
+    <div class="button-container">
+        <a href="Dog4.html" class="button">Run out into the corridor</a>
+        <a href="Dog2.html" class="button">Try to chase your own tail</a>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+                document.getElementById('loading-screen').style.display = 'none';
+                document.getElementById('loading-screen2').style.display = 'none';
+            }, 1500);
+           
+        });
+    </script>
+</body>
+</html>
